@@ -1171,7 +1171,7 @@ private:
 	/** Update LocalBounds member from the local box of each section */
 	void UpdateLocalBounds();
 
-	FRuntimeMeshProxyPtr EnsureProxyCreated();
+	FRuntimeMeshProxyPtr EnsureProxyCreated(ERHIFeatureLevel::Type InFeatureLevel);
 
 	void Initialize();
 
